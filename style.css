@@ -1,0 +1,69 @@
+body{
+    background-image: url('music.png');
+    background-repeat: repeat;
+    opacity: 0.1;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.bottom{
+    position: sticky;
+    height: 130px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    flex-direction: column;
+}
+.container{
+    min-height: 72vh;
+    background-color: black;
+    color: white;
+    margin: 23px auto;
+    padding: 34px;
+    border-radius: 12px;
+    width: 70%;
+    
+    background-image: url('backgroundimage.jpg.jpg');
+    opacity: 1.0;
+}
+#myProgressbar{
+    width: 80vw;
+    cursor: pointer;
+}
+.icons{
+    margin-top: 14px;
+}
+.icons i{
+    cursor: pointer;
+}
+.songItem{
+    display: flex;
+    background-color: white;
+width: 27%;
+color: black;
+border-radius: 12px;
+margin: 15px 0px;
+justify-content: space-between;
+padding:10px;
+}
+.songItem img{
+    width: 43px;
+    border-radius: 34px;
+}
+.time i{
+    cursor: pointer;
+}
+.songItemContainer{
+    margin:72px 0px;
+}
+.songInfo{
+    position: absolute;
+    left:130px;
+}
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
